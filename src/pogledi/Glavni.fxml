@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kontroleri.GlavniKontroler">
+   <children>
+      <VBox alignment="CENTER" prefHeight="700.0" prefWidth="960.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="128.0" prefWidth="960.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="245.0" text="Trenutno broj odigranih igara: ">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="brojIgre" prefHeight="20.0" prefWidth="30.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Label>
+                  <Region prefHeight="109.0" prefWidth="42.0" />
+                  <Label prefHeight="53.0" prefWidth="327.0" text="&quot;DIAMOND CIRCLE&quot;" textFill="#fc0101">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Region prefHeight="109.0" prefWidth="32.0" />
+                  <VBox alignment="CENTER" prefHeight="95.0" prefWidth="180.0">
+                     <children>
+                        <Region prefHeight="11.0" prefWidth="70.0" />
+                        <Button fx:id="kreniStani" mnemonicParsing="false" onAction="#pokreniZaustavi" prefHeight="54.0" prefWidth="180.0" text="POKRENI/ZAUSTAVI">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="42.0" prefWidth="683.0">
+               <children>
+                  <Label fx:id="lblIgracJedan" prefHeight="20.0" prefWidth="424.0">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="586.0" prefWidth="892.0">
+               <children>
+                  <VBox fx:id="detaljiFigura" alignment="CENTER" prefHeight="568.0" prefWidth="281.0">
+                     <children>
+                        <Label prefHeight="94.0" prefWidth="197.0" text="Klikom na odredjenu figuru otvara se novi prozor na kom se na matrici iscrtava njegova trenutna predjena putanja." textAlignment="JUSTIFY" textFill="#f20404" wrapText="true">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <VBox fx:id="vboxFigura" alignment="CENTER" prefHeight="469.0" prefWidth="212.0" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="586.0" prefWidth="606.0">
+                     <children>
+                        <Region prefHeight="66.0" prefWidth="537.0" />
+                        <GridPane fx:id="gridPane" alignment="CENTER" gridLinesVisible="true" prefHeight="341.0" prefWidth="529.0">
+                         
+                        </GridPane>
+                        <Region prefHeight="41.0" prefWidth="529.0" />
+                        <VBox alignment="CENTER" prefHeight="113.0" prefWidth="578.0">
+                           <children>
+                              <Label contentDisplay="CENTER" text="OPIS ZNACENJA KARTE:">
+                                 <font>
+                                    <Font name="System Bold" size="25.0" />
+                                 </font></Label>
+                              <Region prefHeight="6.0" prefWidth="578.0" />
+                              <Label fx:id="refreshLabel" prefHeight="59.0" prefWidth="453.0">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font></Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="568.0" prefWidth="245.0">
+                     <children>
+                        <Label text="Trenutna karta: ">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font></Label>
+                        <Region prefHeight="18.0" prefWidth="211.0" />
+                        <ImageView fx:id="imageView" fitHeight="331.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true" />
+                        <HBox alignment="CENTER" prefHeight="66.0" prefWidth="211.0">
+                           <children>
+                              <Label fx:id="vrijeme" text="Vrijeme trajanja igre: ">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font></Label>
+                              <Label prefHeight="28.0" prefWidth="32.0">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font></Label>
+                           </children>
+                        </HBox>
+                        <Button fx:id="prikazFajlova" mnemonicParsing="false" onAction="#prikaziFajlove" prefHeight="69.0" prefWidth="143.0" text="Prikaz liste fajlova sa rezultatima" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

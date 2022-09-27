@@ -1,0 +1,20 @@
+Igrac -  a:
+Figura - 1(SBF,ZELENA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
+Figura - 2(LF,ZELENA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : ne
+Figura - 3(LF,ZELENA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : ne
+Figura - 4(SBF,ZELENA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
+Igrac -  ana:
+Figura - 1(SBF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
+Figura - 2(LF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : ne
+Figura - 3(LF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
+Figura - 4(SBF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
+Igrac -  b:
+Figura - 1(LF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : ne
+Figura - 2(LF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : ne
+Figura - 3(SBF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
+Figura - 4(SBF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
+Igrac -  milovan:
+Figura - 1(LF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : ne
+Figura - 2(SBF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
+Figura - 3(LF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
+Figura - 4(SBF,ZUTA) -  predjeni put: [4, 12, 20, 28, 34, 40, 46, 38, 30, 22, 16, 10, 11, 19, 27, 33, 39, 31, 23, 17, 18, 26, 32, 24, 25] stigla do cilja : da
